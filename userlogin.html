@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+        
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+background-image: url('bg.jpg');
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+.container {
+  padding: 16px;
+  text-align: center;
+}
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+button {
+  background-color: #7b91e7;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+    </style>
+</head>
+<body>
+    <img src="logo.png" alt="Paris" class="center">
+
+    <div class="container">
+
+        <label for="uname"><b>User's Type</b></label><br>
+        <input type="text" placeholder="Enter User's Type" name="type" required><br>
+
+        <label for="uname"><b>Email</b></label><br>
+        <input type="text" placeholder="Enter Email" name="uname" required><br>
+    
+        <label for="psw"><b>Password</b></label><br>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit" name="sumbit"><a href="driverdash.html">Login</a></button>
+
+        <p>Already have an account? <a href="signup.html">Sign in</a>.</p>
+
+      </div>
+
+
+</body>
+</html>
